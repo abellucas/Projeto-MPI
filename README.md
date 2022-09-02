@@ -59,11 +59,10 @@ print('Total de combinações com a soma: %d' % total)
 print('\n')
 ```
 # 3 - Execução do código com 2 processos e 5 (pode ser qualquer número, mas como exemplo, deixarei 5) passado por parâmetro como o tamanho de medição do problema
-`
-!mpirun --allow-run-as-root -np 2 python mpiobi.py 5
+`!mpirun --allow-run-as-root -np 2 python mpiobi.py 5`
 
 # 4 - Visualizar o tempo de Execução de 15 a 23 números
-
+```
 import time as t
 tempo_exec = []
 tempo_teorico = []
@@ -79,9 +78,9 @@ for i in range(15, 23):
   print(tempo_final)
 print(tempo_exec)
 print(tempo_teorico)
-`
+```
 # 5 - Plotar esses dados de Tempo no Gráfico
-`
+```
 import matplotlib.pyplot as plt
 plt.figure(figsize=(10,7))
 plt.plot([tempo_exec[i][0] for i in range(len(tempo_exec))], [tempo_exec[i][1] for i in range(len(tempo_exec))], label='Alg. Paralelo')
@@ -92,4 +91,4 @@ plt.ylabel('Segundos')
 plt.legend()
 plt.grid()
 plt.show()
-`
+```
