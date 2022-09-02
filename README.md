@@ -58,7 +58,6 @@ for l in combinacoes:
     print()
 print('Total de combinações com a soma: %d' % total)
 print('\n')
-# Python
 ```
 # 3 - Execução do código com 2 processos e 5 (pode ser qualquer número, mas como exemplo, deixarei 5) passado por parâmetro como o tamanho de medição do problema
 `!mpirun --allow-run-as-root -np 2 python mpiobi.py 5`
