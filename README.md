@@ -2,12 +2,9 @@
 Atividade Avaliativa da disciplina de Sistemas Distribuídos utilizando MPI for Py. Projeto Realizado na plataforma Google Colab.
 #Passo a passo para o Funcionamento do Código 
 # 1 - Instalação da MPI
-`
-!pip install mpi4py
-`
+`!pip install mpi4py`
 # 2 - Código em Python com a MPI4PY
-`
-# Python
+```
 %%writefile mpiobi.py
 from mpi4py import MPI
 
@@ -60,7 +57,7 @@ for l in combinacoes:
     print()
 print('Total de combinações com a soma: %d' % total)
 print('\n')
-`
+```
 # 3 - Execução do código com 2 processos e 5 (pode ser qualquer número, mas como exemplo, deixarei 5) passado por parâmetro como o tamanho de medição do problema
 `
 !mpirun --allow-run-as-root -np 2 python mpiobi.py 5
