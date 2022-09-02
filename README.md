@@ -7,6 +7,7 @@ Atividade Avaliativa da disciplina de Sistemas Distribuídos utilizando MPI for 
 `
 # 2 - Código em Python com a MPI4PY
 `
+# Python
 %%writefile mpiobi.py
 from mpi4py import MPI
 
