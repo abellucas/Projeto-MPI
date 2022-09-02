@@ -1,7 +1,7 @@
 # Projeto-MPI
 Atividade Avaliativa da disciplina de Sistemas Distribuídos utilizando MPI for Py. Projeto Realizado na plataforma Google Colab.
-# Link do Google Colab
-[Link para acessar o código no Google Colab](https://colab.research.google.com/drive/1joRTNeXPKxR38qL8g3abMlgZHappLzS4?usp=sharing)
+# Link para acessar o código no Google Colab
+(https://colab.research.google.com/drive/1joRTNeXPKxR38qL8g3abMlgZHappLzS4?usp=sharing)
 # Passo a passo para o Funcionamento do Código 
 # 1 - Instalação da OPEN MPI
 `!pip install mpi4py`
