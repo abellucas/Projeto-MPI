@@ -59,7 +59,7 @@ print('Total de combinações com a soma: %d' % total)
 print('\n')
 ```
 # 3 - Execução do código com 2 processos e 5 (pode ser qualquer número, mas como exemplo, deixarei 5) passado por parâmetro como o tamanho de medição do problema
-`python !mpirun --allow-run-as-root -np 2 python mpiobi.py 5`
+`!mpirun --allow-run-as-root -np 2 python mpiobi.py 5`
 
 # 4 - Visualizar o tempo de Execução de 15 a 23 números
 ```python
